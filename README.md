@@ -12,8 +12,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, GRU, Embedding
 import re
-from sklearn.model_selection import train_test_split```
+from sklearn.model_selection import train_test_split
+```
 
 ```python
 # set sentence limit: otherwise leads to memory error in devices with less memory
-sentCntLimit = 2000```
+sentCntLimit = 2000
+```
